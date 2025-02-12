@@ -40,7 +40,7 @@ export default {
           foreground: "#8E9196",
         },
         accent: {
-          DEFAULT: "#F2FCE2",
+          DEFAULT: "#FEF7CD",
           foreground: "#1A1F2C",
         },
       },

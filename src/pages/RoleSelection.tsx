@@ -7,11 +7,11 @@ const RoleSelection = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-background to-accent/20">
+    <div className="min-h-screen flex items-center justify-center p-4 bg-background">
       <div className="w-full max-w-4xl animate-fade-up">
         <div className="text-center mb-12 space-y-2">
-          <h1 className="text-4xl font-bold">Welcome to Interview Insight</h1>
-          <p className="text-muted-foreground text-lg">
+          <h1 className="text-4xl font-bold text-white">Welcome to Interview Insight</h1>
+          <p className="text-white/70 text-lg">
             Select your role to continue
           </p>
         </div>

@@ -32,17 +32,17 @@ const StudentDashboard = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-accent/20">
+    <div className="min-h-screen bg-background">
       <Navbar />
       <main className="container py-8 animate-fade-up">
         <div className="space-y-2 mb-8">
-          <h1 className="text-3xl font-bold">Student Dashboard</h1>
-          <p className="text-muted-foreground">
+          <h1 className="text-3xl font-bold text-white">Student Dashboard</h1>
+          <p className="text-white/70">
             Welcome back! Here's what you can do:
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6">
           {cards.map((card) => (
             <DashboardCard key={card.title} {...card} />
           ))}
